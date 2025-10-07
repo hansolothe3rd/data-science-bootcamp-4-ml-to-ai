@@ -22,6 +22,22 @@ This repo transitions from traditional machine learning to **AI and deep learnin
 
 ---
 
+### Day 31 – Gradient Descent & Optimization
+
+**Focus:** Understanding how models learn by minimizing loss functions.  
+**Topics Covered:**
+- Concept and math of gradient descent  
+- Learning rate and convergence  
+- Manual implementation with Python  
+- Mini project: Linear Regression from scratch  
+
+**Skills Gained:**
+- Mathematical intuition for optimization  
+- Parameter tuning practice  
+- Implementing ML fundamentals manually
+
+---
+
 ## 🧩 Skills You’ll Learn
 - Model optimization and tuning  
 - Deep learning with TensorFlow/Keras  
