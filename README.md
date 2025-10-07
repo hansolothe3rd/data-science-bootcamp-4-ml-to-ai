@@ -38,6 +38,26 @@ This repo transitions from traditional machine learning to **AI and deep learnin
 
 ---
 
+### Day 32 – Feature Engineering Deep Dive
+**Focus:** Handling outliers, skewness, transformations, and scaling features.
+
+**Mini Project:**  
+- Dataset: California Housing  
+- Steps:
+  1. Detect and cap outliers (IQR method)  
+  2. Fix skewed features (log transformation)  
+  3. Scale numeric columns (StandardScaler)  
+  4. Encode categorical features (one-hot)  
+  5. Build preprocessing pipeline  
+  6. Train Linear Regression and Random Forest models  
+  7. Evaluate and visualize feature importances
+
+**Key Takeaways:**  
+- Clean, well-transformed features improve model performance  
+- Scaling helps optimization  
+- Pipelines make preprocessing reproducible
+
+
 ## 🧩 Skills You’ll Learn
 - Model optimization and tuning  
 - Deep learning with TensorFlow/Keras  
