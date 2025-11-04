@@ -22,7 +22,7 @@ This repo transitions from traditional machine learning to **AI and deep learnin
 
 ---
 
-### Day 31 – Gradient Descent & Optimization
+## Day 31 – Gradient Descent & Optimization
 
 **Focus:** Understanding how models learn by minimizing loss functions.  
 **Topics Covered:**
@@ -38,7 +38,7 @@ This repo transitions from traditional machine learning to **AI and deep learnin
 
 ---
 
-### Day 32 – Feature Engineering Deep Dive
+## Day 32 – Feature Engineering Deep Dive
 **Focus:** Handling outliers, skewness, transformations, and scaling features.
 
 **Mini Project:**  
@@ -56,6 +56,26 @@ This repo transitions from traditional machine learning to **AI and deep learnin
 - Clean, well-transformed features improve model performance  
 - Scaling helps optimization  
 - Pipelines make preprocessing reproducible
+
+---
+
+## 🧠 Day 33 — Data Preprocessing with scikit-learn
+
+**Focus:** Cleaning and preparing data before modeling.  
+**Key Tools:** `SimpleImputer`, `OneHotEncoder`, `StandardScaler`, `ColumnTransformer`, `Pipeline`
+
+### 📚 What I Learned
+- Handle missing values using mean or most frequent imputation  
+- Encode categorical variables with one-hot encoding  
+- Standardize numeric features for consistent scaling  
+- Combine steps into a preprocessing pipeline for cleaner workflows  
+
+### 🧩 Mini Project
+Preprocessed the **Titanic dataset** — imputing missing data, encoding categorical variables, scaling features, and splitting into train/test sets for modeling.
+
+---
+
+**Next:** Dive into **Regularization (L1/L2/Ridge/Lasso)** to prevent overfitting and improve model generalization.
 
 
 ## 🧩 Skills You’ll Learn
