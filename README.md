@@ -120,7 +120,23 @@ Built a **Loan Default Prediction Model**:
 
 ---
 
-**Next:** Day 36 — *Neural Network Basics* 🧠 — diving into perceptrons and activation functions.
+## 🧠 Day 36 — Neural Network Basics
+
+**Focus:** Understanding how neural networks learn through layers, weights, and activations.  
+**Key Tools:** `NumPy`, `TensorFlow`, `Keras`, `matplotlib`
+
+### 📚 What I Learned
+- The structure of a **Perceptron** — inputs, weights, bias, activation  
+- Difference between **linear** and **non-linear** activation functions  
+- How forward propagation computes predictions  
+- How backpropagation adjusts weights through gradients  
+- Used TensorFlow/Keras to build a simple feedforward neural network
+
+### 🧩 Mini Project
+Built a **Binary Classifier** to predict whether a student passes or fails based on study hours and sleep:
+- Implemented a single-layer perceptron in NumPy  
+- Recreated it using **Keras Sequential API**  
+- Visualized the decision boundary and model performance
 
 
 ## 🧩 Skills You’ll Learn
