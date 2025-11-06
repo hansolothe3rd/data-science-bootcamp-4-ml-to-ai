@@ -75,7 +75,27 @@ Preprocessed the **Titanic dataset** — imputing missing data, encoding categor
 
 ---
 
-**Next:** Dive into **Regularization (L1/L2/Ridge/Lasso)** to prevent overfitting and improve model generalization.
+## 🌳 Day 34 — Decision Trees & Random Forests
+
+**Focus:** Understanding tree-based models for non-linear decision making.  
+**Key Tools:** `scikit-learn`, `pandas`, `matplotlib`, `seaborn`
+
+### 📚 What I Learned
+- How **Decision Trees** split data using **Gini impurity** and **entropy**  
+- Visualized trees and understood how splits affect bias and variance  
+- Learned how **Random Forests** improve accuracy by averaging multiple trees  
+- Compared model performance between Decision Trees and Random Forests  
+- Tuned hyperparameters like `max_depth`, `n_estimators`, and `min_samples_split`
+
+### 🧩 Mini Project
+Built a **Customer Churn Predictor** using Random Forests:  
+- Preprocessed categorical and numeric data  
+- Trained and tuned models using cross-validation  
+- Evaluated accuracy, precision, recall, and feature importance  
+
+---
+
+**Next:** Day 35 — *Gradient Boosting (XGBoost, LightGBM)* 🚀
 
 
 ## 🧩 Skills You’ll Learn
