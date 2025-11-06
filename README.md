@@ -95,7 +95,32 @@ Built a **Customer Churn Predictor** using Random Forests:
 
 ---
 
-**Next:** Day 35 — *Gradient Boosting (XGBoost, LightGBM)* 🚀
+## 🚀 Day 35 — Gradient Boosting (XGBoost & LightGBM)
+
+**Focus:** Mastering advanced ensemble methods for high-performance ML.  
+**Key Tools:** `XGBoost`, `LightGBM`, `scikit-learn`, `matplotlib`
+
+### 📚 What I Learned
+- How **Gradient Boosting** builds models sequentially to reduce errors  
+- The difference between **Bagging (Random Forests)** and **Boosting (XGBoost)**  
+- Tuned hyperparameters like:
+  - `learning_rate`
+  - `n_estimators`
+  - `max_depth`
+  - `subsample`
+- Evaluated performance using metrics like accuracy, AUC, and confusion matrices  
+- Compared **XGBoost** and **LightGBM** efficiency and accuracy  
+
+### 🧩 Mini Project
+Built a **Loan Default Prediction Model**:
+- Cleaned and encoded financial dataset features  
+- Trained models using XGBoost and LightGBM  
+- Tuned hyperparameters with grid search  
+- Visualized **feature importance** and **ROC curves**
+
+---
+
+**Next:** Day 36 — *Neural Network Basics* 🧠 — diving into perceptrons and activation functions.
 
 
 ## 🧩 Skills You’ll Learn
