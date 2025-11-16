@@ -149,6 +149,72 @@ Built a **Binary Classifier** to predict whether a student passes or fails based
 
 ---
 
+# 🧠 Day 37 – Building an ANN with TensorFlow/Keras
+
+## 📌 Overview
+Today we expand on neural networks by building a **deeper artificial neural network (ANN)** with multiple hidden layers using TensorFlow/Keras.
+
+---
+
+## 🔹 Learning Objectives
+- Understand the **Sequential model** in Keras  
+- Add multiple **hidden layers**  
+- Use different **activation functions**  
+- Train and evaluate your ANN  
+- Visualize training metrics like **loss** and **accuracy**
+
+---
+
+## 🧩 Key Concepts
+
+### ANN Components
+- **Input layer** – receives features  
+- **Hidden layers** – learn patterns from data  
+- **Output layer** – predicts target values  
+
+### Activation Functions
+- **ReLU** – common in hidden layers  
+- **Sigmoid** – good for binary outputs  
+- **Softmax** – for multi-class outputs  
+
+### Architecture Example
+- Input → Hidden layer 1 (8 neurons, ReLU)  
+- Hidden layer 2 (4 neurons, ReLU)  
+- Output layer (1 neuron, Sigmoid)  
+
+### Training Notes
+- **Loss function:** binary_crossentropy  
+- **Optimizer:** Adam  
+- **Epochs:** 100+  
+- **Batch size:** 32  
+
+---
+
+## 🛠 Notebook Tasks
+1. Build a 2-hidden-layer ANN using TensorFlow/Keras  
+2. Train the network for 100 epochs on a small dataset  
+3. Track **loss** and **accuracy**  
+4. Plot training curves  
+5. Write a 2–4 sentence interpretation of results  
+
+---
+
+## 🧪 Mini Project
+- Build your own **2-hidden-layer ANN**  
+- Experiment with **4–10 neurons per layer**  
+- Try different **activation functions** (ReLU, Tanh, Sigmoid)  
+- Train for 100+ epochs  
+- Plot **loss and accuracy curves**  
+- Write a brief **analysis of network performance**  
+
+---
+
+## ⚙️ Setup
+- Install TensorFlow:  
+```bash
+pip install tensorflow
+
+
 ## ⚙️ Setup
 ```bash
 git clone https://github.com/yourusername/data-science-bootcamp-4-ml-to-ai.git
