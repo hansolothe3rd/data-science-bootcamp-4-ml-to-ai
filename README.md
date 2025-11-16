@@ -209,6 +209,75 @@ Today we expand on neural networks by building a **deeper artificial neural netw
 
 ---
 
+# 🧠 Day 38 – Improving Neural Networks
+
+## 📌 Overview
+Today we focus on improving your artificial neural networks (ANNs) using techniques like **dropout, batch normalization, and hyperparameter tuning**. These methods help prevent overfitting and make your model generalize better.
+
+---
+
+## 🔹 Learning Objectives
+- Understand **overfitting** vs **underfitting**  
+- Implement **dropout layers**  
+- Apply **batch normalization**  
+- Tune hyperparameters (neurons, activation functions, learning rate)  
+- Evaluate model performance and improvements
+
+---
+
+## 🧩 Key Concepts
+
+### Overfitting vs Underfitting
+- **Overfitting:** model performs well on training data but poorly on new data  
+- **Underfitting:** model fails to learn patterns, low performance overall  
+
+### Dropout
+- Randomly disables neurons during training  
+- Prevents over-reliance on specific nodes  
+- Typical dropout rate: 0.2–0.5  
+
+### Batch Normalization
+- Normalizes inputs to each layer  
+- Speeds up training and stabilizes learning  
+
+### Hyperparameter Tuning
+- Adjust:  
+  - Number of hidden layers and neurons  
+  - Activation functions  
+  - Learning rate  
+  - Batch size and epochs  
+
+---
+
+## 🛠 Notebook Tasks
+1. Add **dropout** to your existing ANN  
+2. Apply **batch normalization** to hidden layers  
+3. Tune hyperparameters and re-train  
+4. Compare **loss and accuracy curves** with original model  
+5. Write a short interpretation (2–4 sentences)  
+
+---
+
+## 🧪 Mini Project
+- Take your **Day 37 ANN**  
+- Add **dropout** (0.2–0.5) to hidden layers  
+- Add **batch normalization**  
+- Train for 100+ epochs  
+- Plot **loss and accuracy curves**  
+- Experiment with:  
+  - Different numbers of neurons per layer (4–10)  
+  - Different activation functions (ReLU, Tanh, Sigmoid)  
+  - Different learning rates (0.001–0.01)  
+- Write a brief analysis of performance improvements
+
+---
+
+## ⚙️ Setup
+- Install TensorFlow:  
+```bash
+pip install tensorflow
+
+
 ## ⚙️ Setup
 - Install TensorFlow:  
 ```bash
