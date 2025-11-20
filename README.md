@@ -272,6 +272,130 @@ Today we focus on improving your artificial neural networks (ANNs) using techniq
 
 ---
 
+# 🧠 Day 39 — Convolutional Neural Networks (CNNs)
+
+Today you step into **computer vision** with **Convolutional Neural Networks (CNNs)** — the models behind image classification, object detection, and modern AI vision systems.  
+This lesson introduces convolutions, filters, pooling, and how CNNs extract hierarchical features from images.
+
+---
+
+## 📌 Learning Objectives
+
+By the end of Day 39, you will be able to:
+
+- Explain convolutions, filters, feature maps  
+- Understand stride, padding, and pooling layers  
+- Build a CNN using TensorFlow/Keras  
+- Train a CNN on Fashion-MNIST  
+- Visualize training curves and predictions  
+- Improve model performance with deeper layers or augmentation  
+
+---
+
+## 📦 1. Imports & Dataset
+
+You will use **Fashion-MNIST**, a 28×28 grayscale clothing dataset, perfect for CNN training.
+
+---
+
+## 🧵 2. Data Preparation
+
+- Normalize pixel values  
+- Reshape images to (28, 28, 1)  
+- One-hot encode labels  
+
+This setup matches the input shape Keras expects for Conv2D.
+
+---
+
+## 👁 3. Visualizing Images
+
+Preview a batch of clothing items to understand the classification challenge.
+
+---
+
+## 🧩 4. Build Your First CNN
+
+Your basic CNN includes:
+
+- **Conv2D(32)** → extract edges/textures  
+- **MaxPool2D** → downsample  
+- **Conv2D(64)** → deeper features  
+- **Flatten → Dense → Dropout → Dense** output layer  
+
+This is the classic architecture for early CNN tasks.
+
+---
+
+## ⚙️ 5. Compile
+
+Use:
+
+- **Adam** optimizer  
+- **Categorical Crossentropy** loss  
+- Accuracy metric  
+
+---
+
+## 🚀 6. Train the Model
+
+Train for 10 epochs with a validation split.
+
+Track:
+
+- Training vs validation accuracy  
+- Training vs validation loss  
+
+---
+
+## 📈 7. Plot Results
+
+Visualize overfitting, stability, and general learning progression.
+
+---
+
+## 🧪 8. Evaluate on Test Data
+
+Measure model performance on unseen data and print the final accuracy.
+
+---
+
+## 🔍 9. Predictions & Errors
+
+Identify misclassified images to see where your CNN struggles.
+
+---
+
+## 🎯 Mini-Project: Improve the CNN
+
+Improve accuracy by **5–10%** through at least one of the following:
+
+### 🔧 Option A — More Filters  
+Increase representational capacity.
+
+### 🧱 Option B — Add Another Conv Block  
+Build deeper feature hierarchies.
+
+### 🛡 Option C — Increase Dropout  
+Regularize and reduce overfitting.
+
+### 🌪 Option D — Data Augmentation  
+Generate transformed samples:
+- rotation  
+- zoom  
+- width/height shifts  
+
+Retrain with augmented batches to see performance gains.
+
+---
+
+## 🎉 End of Day 39
+
+You now understand how CNNs extract visual features and build image classifiers.
+
+Tomorrow: **Day 40 Mini Capstone Project — Build an End-to-End Vision Model**.
+
+
 ## ⚙️ Setup
 - Install TensorFlow:  
 ```bash
